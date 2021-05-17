@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin-block: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #155263;
+}
+
+.btn{
+    width: 200px;
+    height: 60px;
+    background: #ff6f3c;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: traslate(-50%, -50%);
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.btn:before{
+    content: "Vamos";
+    color: white;
+    font-family: 'century Gotic' Sans-Serif;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: traslate(-50%, -5%);
+    transition: all .5s ease-in-out;
+}
+.btn:hover::before{
+    top: -30px;
+}
+
+.btn::after{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 40px;
+    color: red;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: traslate(-50%, -5%);
+    transition: all .5s ease-in-out;
+}
+.btn::after{
+    top: 50%;
+    
+}
