@@ -8,7 +8,7 @@ body{
     background: #155263;
 }
 
-.btn{
+#Valor input{
     width: 200px;
     height: 60px;
     background: #ff6f3c;
@@ -21,7 +21,7 @@ body{
     cursor: pointer;
 }
 
-.btn:before{
+#Valor input::before{
     content: "Vamos";
     color: white;
     font-family: 'century Gotic' Sans-Serif;
@@ -32,13 +32,12 @@ body{
     transform: traslate(-50%, -5%);
     transition: all .5s ease-in-out;
 }
-.btn:hover::before{
+#Valor input:hover::before{
     top: -30px;
 }
-
-.btn::after{
+#Valor input::after{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-    Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 40px;
     color: red;
     position: absolute;
@@ -47,7 +46,7 @@ body{
     transform: traslate(-50%, -5%);
     transition: all .5s ease-in-out;
 }
-.btn::after{
+#Valor input::after{
     top: 50%;
     
 }

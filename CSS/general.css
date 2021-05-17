@@ -51,15 +51,7 @@ font-size: 20px;
     font-size: 25px;
     margin-bottom: 25px;
 }
-#titulo button{
-    background: darkred;
-    border-radius: 20px;
-    color: azure;
-    font-size: 20px;
-    padding: 10px; 
-   
-     
-}
+       
 #titulo button{
     padding: 0px 50px 0px 50px;
 }
@@ -74,24 +66,44 @@ h2{ font-size: 40px;
     font-weight: inherit;
     font-style: oblique;
 }
-li{ font-size: 20px;
+#Valor h3{ 
+    font-size: 45px;
     font-weight: bold;
+    padding-left: 250px;
 }
-h3{ font-size: 35px; 
+#valor button{
+    background: darkred;
+    border-radius: 20px;
+    color: azure;
+    font-size: 30px;
+    padding: 10px;
+    position: absolute; 
+    top: 182%;
+    left: 45%;
+}
+
+#valor button:hover{
+    background: darkgoldenrod;
+}
+#beneficios h3{ 
+    font-size: 35px; 
     font-weight: bold;
-    padding: 0px 20px 0px 20px;
+    padding-left: 50px;
 
 }
 td{ font-size: 25px;
 }
-h4{ font-weight: bold;
+#beneficios h4{ 
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 55px;
 }
 /*#Recomsxx{
     font-family: 'Itim', cursive;
 }*/
 #music h1{
     text-align-last: center;
-    color: rgb(74, 192, 207);
+    color: rgb(58, 86, 90);
 }
 #titulo{
     text-align: left;
