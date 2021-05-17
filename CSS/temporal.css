@@ -1,8 +1,22 @@
-*{
+#Registros{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     
+}
+#oo h3{
+    color: rgb(7, 7, 7);
+    float: left;
+    font-family: cursive;
+    font-size: 40px;
+    font: oblique bold 120% cursive;
+}
+#lld{
+    float: right;
+    padding: 12px 5px 12px;
+}
+.form-register{
+    background-color: darkorchid;
 }
 .form-register{
     width: 400px;
@@ -17,7 +31,7 @@
     
 }
 body{
-    background-image: url('fondo.jpg');
+    background-image: url('images (68).jpeg');
 }
 .form-register h4{
     font-size: 22px;

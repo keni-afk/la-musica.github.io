@@ -13,14 +13,19 @@ header{
 #navegar a{
 color: rgb(208, 119, 214);
 text-decoration: none;
-margin-right: 55px;  
+margin-right: 45px;
+font: oblique bold 120% cursive;
+font-size: 20px;
 }
 #navegar a:hover{
-    color: blue;
+    color: rgb(119, 0, 255);
 }
 .flotar-izquierda p{
-    color: rgb(209, 89, 203);
+    color: rgb(7, 7, 7);
     float: left;
+    font-family: cursive;
+    font-size: 40px;
+    font: oblique bold 120% cursive;
 }
 .flotar-derecha{
     float: right;
@@ -40,6 +45,7 @@ margin-right: 55px;
     font-weight: bold;
     color: rgb(53, 104, 199);
     margin-bottom: 15px;
+    font-family: "Segoe UI"
 }
 #banner-inicio p{
     font-size: 25px;
