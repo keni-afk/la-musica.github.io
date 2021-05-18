@@ -1,0 +1,179 @@
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #000000;
+  color: #78ddf0;
+  
+}
+header{
+  background-color: rgb(60, 50, 148) ;
+  padding: 0px 20px 0px 50px; 
+}
+#navegar{
+    display: flow-root;
+}
+
+#navegar a{
+color: rgb(231, 129, 238);
+text-decoration: none;
+margin-right: 55px;
+font: oblique bold 120% cursive;
+font-size: 26px;
+}
+#navegar a:hover{
+    color: rgb(7, 5, 39);
+}
+/*.flotar-izquierda p{
+    color: rgb(177, 185, 62);
+    float: left;
+    font-family: "Consolas", monospace;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 90px;
+    position: ;
+    top: 25%;
+    left: 33%;
+}*/
+.flotar-derecha{
+    float: right;
+    padding: 12px 5px 12px;
+}
+.img-container {
+    max-width: 100%;
+    height: 500px;
+}
+.img-container img{
+    width: 100%;
+    height: 105%; 
+}
+#banner-inicio h2{
+   font-size: 80px;
+   color: rgb(101, 155, 218);
+   font-family: "Consolas", monospace;
+  font-style: italic;
+    font-weight: bold;
+      margin-bottom: 15px;
+}
+#banner-inicio p{
+  font-size: 80px;
+   color: #40cbff;
+   font-family: "Consolas", monospace;
+   font-style: italic;
+    font-weight: bold;
+      margin-bottom: 15px;
+}
+#titulo p{
+				font-size: 30px; 
+    font-weight: bold;
+    padding-left: 50px;
+    color:#ecd8ec;
+}
+#titulo h3{
+   text-align-last:left;
+				font-size: 40px; 
+    font-weight: bold;
+    padding-left: 55px;
+
+}
+
+       
+/*#titulo input{
+    border-radius: 20px;
+    background-color: #cf0009;
+    color: azure;
+    font-size: 25px;
+    padding: 10px;
+}*/
+.banner-container{
+    max-width: 50%;
+    height: 0px;
+}
+.banner-container img{
+    max-width: 60%;
+    height: 320px;
+    position: absolute; 
+    top: 720px; 
+    right: 75px;
+   
+}
+h5{ 
+    text-align-last:left;
+				font-size: 40px; 
+    font-weight: bold;
+    padding-left: 55px;
+} 
+
+/*h5{ font-size: 0px;
+    font-weight: inherit;
+    font-style: oblique;
+    position: absolute;
+    top: 100%;
+    left: 30%;
+    font: oblique bold 200% cursive;
+}*/
+#Valor h3{ 
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 210px;
+    color: #cf74e8;
+}
+/*#valor button{
+    background: darkred;
+    border-radius: 20px;
+    color: azure;
+    font-size: 30px;
+    padding: 10px;
+    position: absolute; 
+    top: 182%;
+    left: 45%;
+}*/
+
+/*#valor button:hover{
+    background: darkgoldenrod;
+}*/
+#beneficios h3{ 
+    font-size: 50px; 
+    font-weight: bold;
+    padding-left: 430px;
+    color:#40ffb6
+
+}
+.banner5-container{
+   max-width: 80%;
+    height: 0px;
+}
+.banner5-container img{
+   max-width: 70%;
+    height: 350px;
+    position:absolute; 
+    top: 85em; 
+    right: 150px;
+}
+
+#beneficios h4{
+    text-align-last: left;
+    font-weight: bold;
+    font-size: 45px;
+    padding-left: 55px;
+}
+li{
+  text-align: left;
+    font-size: 38px; 
+    font-weight: bold;
+    padding-left: 50px;
+    color:#15ffa1
+} 
+/*#Recomsxx{
+    font-family: 'Itim', cursive;
+}*/
+#titulo{
+    text-align: left;
+   
+}
+#titulo h2{
+    padding: 0px 15px 0px 15px;
+    
+}
+#titulo p{
+    padding: 0px 50px 0px 50px;
+}
