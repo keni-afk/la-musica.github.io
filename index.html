@@ -3,14 +3,16 @@
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
          
-   <link rel="stylesheet" href="../la-musica.github.io/CSS/estilo.css"
+   <link rel="stylesheet" href="./css/estilo.css">
    <link rel="icon" href="img/banner.png">     
         <title>La Musica</title>
         
     </head>
     
     
-    <body>
+    <body onload="mostrarPato()">
+    				
+    	
         <header>
             <nav id="navegar">
                 <!--<div class="flotar-izquierda">
@@ -23,8 +25,8 @@
                     <a href="index.html">Inicio</a>
                     <a href="recoms.html">Recomendaciones</a>
                 </div>
-                <div class="flotar-derecha">
-                    <a href="prueba.html">Registrarse</a>
+                <div  class="flotar-derecha">
+                    <a onmouseover="registroPagina()" href="prueba.html">Registrarse</a>
                     <a href="insn.html">Iniciar sesion</a>
                 </div>
                </nav>
@@ -86,9 +88,11 @@
                 <li>Regueton</li>
            
             </div>
+            			<button onclick="resultadoClick()">Vamos</button>
+    				
         </section>
         </main>
-        
+        <script src="js/funciones.js"></script>
     </body>
     
     
